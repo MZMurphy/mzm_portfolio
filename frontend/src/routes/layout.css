@@ -49,6 +49,57 @@ body {
 .badge-purple { color: #a855f7; border: 1px solid #a855f7; }
 .badge-blue { color: #3b82f6; border: 1px solid #3b82f6; }
 
+/* Tech tag colours */
+[class^="tag-"], [class*=" tag-"] {
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: default;
+}
+
+.tag-cpp      { color: #f472b6; border-color: #f472b6; }
+.tag-cpp:hover{ background-color: #f472b6; color: #000; }
+
+.tag-c        { color: #94a3b8; border-color: #94a3b8; }
+.tag-c:hover  { background-color: #94a3b8; color: #000; }
+
+.tag-go       { color: #67e8f9; border-color: #67e8f9; }
+.tag-go:hover { background-color: #67e8f9; color: #000; }
+
+.tag-python   { color: #3b82f6; border-color: #3b82f6; }
+.tag-python:hover { background-color: #3b82f6; color: #fff; }
+
+.tag-ts       { color: #facc15; border-color: #facc15; }
+.tag-ts:hover { background-color: #facc15; color: #000; }
+
+.tag-terraform{ color: #a78bfa; border-color: #a78bfa; }
+.tag-terraform:hover { background-color: #a78bfa; color: #000; }
+
+.tag-react    { color: #22d3ee; border-color: #22d3ee; }
+.tag-react:hover { background-color: #22d3ee; color: #000; }
+
+.tag-aws      { color: #fb923c; border-color: #fb923c; }
+.tag-aws:hover{ background-color: #fb923c; color: #000; }
+
+.tag-rust     { color: #f97316; border-color: #f97316; }
+.tag-rust:hover { background-color: #f97316; color: #000; }
+
+.tag-svelte   { color: #fb923c; border-color: #fb923c; }
+.tag-svelte:hover { background-color: #fb923c; color: #000; }
+
+.tag-ptrace   { color: #f87171; border-color: #f87171; }
+.tag-ptrace:hover { background-color: #f87171; color: #000; }
+
+.tag-gcp      { color: #34d399; border-color: #34d399; }
+.tag-gcp:hover{ background-color: #34d399; color: #000; }
+
+.tag-azure    { color: #60a5fa; border-color: #60a5fa; }
+.tag-azure:hover { background-color: #60a5fa; color: #000; }
+
+.tag-net      { color: #86efac; border-color: #86efac; }
+.tag-net:hover{ background-color: #86efac; color: #000; }
+
+.tag-cicd     { color: #e879f9; border-color: #e879f9; }
+.tag-cicd:hover { background-color: #e879f9; color: #000; }
+
 /* 6. Scrollbar */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: #020617; }
