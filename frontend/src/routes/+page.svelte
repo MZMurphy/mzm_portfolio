@@ -4,14 +4,14 @@
 
 <div class="min-h-screen font-sans selection:bg-purple-500 selection:text-white bg-[#020617]">
 
-  <nav class="sticky top-0 z-50 border-b border-white/5 bg-[#020617]/90 backdrop-blur-md px-6 py-4">
+  <nav class="sticky top-0 z-50 border-b border-white/5 bg-[#020617]/90 backdrop-blur-md px-4 sm:px-6 py-3 sm:py-4">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="flex items-center gap-3">
             <div class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
             <span class="font-mono text-white font-bold tracking-tight text-sm">MZM_PORTFOLIO</span>
         </div>
         
-        <div class="flex gap-6 text-[10px] font-mono font-bold tracking-widest">
+        <div class="flex gap-3 sm:gap-6 text-[9px] sm:text-[10px] font-mono font-bold tracking-tight sm:tracking-widest">
             <a href="#projects" class="text-white hover:text-blue-400 transition">./PROJECTS</a>
             <a href="#experience" class="text-slate-500 hover:text-purple-400 transition">./EXPERIENCE</a>
             <a href="mailto:hello@example.com" class="text-slate-500 hover:text-green-400 transition">./CONTACT</a>
