@@ -2,6 +2,27 @@
   import { onMount, onDestroy } from 'svelte';
 
   let showCVModal = false;
+  let showContactModal = false;
+  let contactEmail = '';
+  let contactMessage = '';
+
+  function openContact(e) {
+    e.preventDefault();
+    showContactModal = true;
+  }
+
+  // TODO: Replace mailto fallback with Formspree (or similar) for proper form submission.
+  // Sign up at formspree.io, get an endpoint URL, POST contactEmail + contactMessage to it.
+  // Remove the mailto href and handle the fetch response instead.
+  function submitContact(e) {
+    e.preventDefault();
+    const subject = encodeURIComponent(`Portfolio Contact from ${contactEmail}`);
+    const body = encodeURIComponent(`From: ${contactEmail}\n\n${contactMessage}`);
+    window.location.href = `mailto:mzaramurphy@gmail.com?subject=${subject}&body=${body}`;
+    showContactModal = false;
+    contactEmail = '';
+    contactMessage = '';
+  }
 
   function randHex() {
     return '0x' + Math.floor(Math.random() * 256).toString(16).padStart(2, '0');
@@ -78,6 +99,47 @@
   </div>
 {/if}
 
+{#if showContactModal}
+  <div class="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm" role="dialog" aria-modal="true">
+    <div class="bg-[#0f172a] border border-white/10 p-8 max-w-md w-full mx-4 font-mono">
+      <div class="flex justify-between items-start mb-6">
+        <div>
+          <p class="text-[10px] text-green-400 uppercase tracking-widest mb-1">// OPEN_CHANNEL</p>
+          <p class="text-white font-bold">Get in touch</p>
+          <p class="text-slate-500 text-[10px] mt-1">mzaramurphy@gmail.com</p>
+        </div>
+        <button onclick={() => showContactModal = false} class="text-slate-600 hover:text-white transition text-lg leading-none">✕</button>
+      </div>
+
+      <form onsubmit={submitContact} class="flex flex-col gap-4">
+        <div>
+          <label class="text-[10px] text-slate-500 uppercase tracking-widest block mb-1">Your Email</label>
+          <input
+            type="email"
+            required
+            bind:value={contactEmail}
+            placeholder="you@example.com"
+            class="w-full bg-slate-900 border border-white/10 text-white text-sm px-3 py-2 focus:outline-none focus:border-green-400/50 transition placeholder:text-slate-700"
+          />
+        </div>
+        <div>
+          <label class="text-[10px] text-slate-500 uppercase tracking-widest block mb-1">Message</label>
+          <textarea
+            required
+            bind:value={contactMessage}
+            placeholder="..."
+            rows="5"
+            class="w-full bg-slate-900 border border-white/10 text-white text-sm px-3 py-2 focus:outline-none focus:border-green-400/50 transition placeholder:text-slate-700 resize-none"
+          ></textarea>
+        </div>
+        <button type="submit" class="font-mono text-xs font-bold py-2 px-5 border border-green-400/40 text-green-400 hover:bg-green-400/10 transition mt-2">
+          TRANSMIT →
+        </button>
+      </form>
+    </div>
+  </div>
+{/if}
+
 <div class="min-h-screen font-sans selection:bg-purple-500 selection:text-white bg-[#020617]">
 
   <nav class="sticky top-0 z-50 border-b border-white/5 bg-[#020617]/90 backdrop-blur-md px-4 sm:px-6 py-3 sm:py-4">
@@ -90,7 +152,7 @@
         <div class="flex gap-3 sm:gap-6 text-[9px] sm:text-[10px] font-mono font-bold tracking-tight sm:tracking-widest">
             <a href="#projects" class="text-white hover:text-blue-400 transition">./PROJECTS</a>
             <a href="#experience" class="text-slate-500 hover:text-purple-400 transition">./EXPERIENCE</a>
-            <a href="mailto:mzaramurphy@gmail.com" class="text-slate-500 hover:text-green-400 transition">./CONTACT</a>
+            <button onclick={openContact} class="text-slate-500 hover:text-green-400 transition bg-transparent border-none cursor-pointer font-mono font-bold tracking-tight sm:tracking-widest text-[9px] sm:text-[10px]">./CONTACT</button>
         </div>
     </div>
   </nav>
@@ -227,7 +289,7 @@
         </div>
         <div class="h-48 bg-black border-b border-white/5 flex items-center justify-center overflow-hidden relative">
            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-           <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: CLOUD_TOPOLOGY.WEBM ]</span>
+           <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: NDA_PROTECTED ]</span>
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">AWS Edge Automation</h3>
