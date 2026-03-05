@@ -212,9 +212,11 @@
             <span class="font-mono text-[10px] text-slate-400">./bin/debug</span>
             <span class="font-mono text-[10px] px-2 py-0.5 rounded badge-purple">active</span>
         </div>
-        <div class="h-48 bg-black border-b border-white/5 flex items-center justify-center overflow-hidden relative">
+        <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-          <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: DEEPDIG_DEMO.WEBM ]</span>
+          <video autoplay loop muted playsinline class="w-full h-full object-cover">
+            <source src="/videos/deepdig_demo.webm" type="video/webm" />
+          </video>
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">DeepDig Debugger</h3>
@@ -236,9 +238,9 @@
             <span class="font-mono text-[10px] text-slate-400">./cloud/infra</span>
             <span class="font-mono text-[10px] px-2 py-0.5 rounded badge-blue">active</span>
         </div>
-        <div class="h-48 bg-black border-b border-white/5 flex items-center justify-center overflow-hidden relative">
+        <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-           <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: CLOUD_COMFORT_DEMO.WEBM ]</span>
+           <img src="/videos/cloud-comfort.png" alt="Cloud-Comfort screenshot" class="w-full h-full object-cover object-top" />
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">Cloud-Comfort</h3>
@@ -263,9 +265,11 @@
             <span class="font-mono text-[10px] text-slate-400">./web/deploy</span>
             <span class="font-mono text-[10px] px-2 py-0.5 rounded badge-blue">production</span>
         </div>
-        <div class="h-48 bg-black border-b border-white/5 flex items-center justify-center overflow-hidden relative">
+        <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-           <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: PORTFOLIO_DEMO.WEBM ]</span>
+           <video autoplay loop muted playsinline class="w-full h-full object-cover">
+             <source src="/videos/portfolio_demo.webm" type="video/webm" />
+           </video>
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">Portfolio Website</h3>
