@@ -119,7 +119,7 @@
       </div>
       
       <div class="mt-8 flex gap-4 font-mono text-xs uppercase tracking-widest">
-        <a href="https://github.com/mariesha" class="text-blue-400 hover:text-white transition">GitHub: @mariesha</a>
+        <a href="https://github.com/MZMurphy" class="text-blue-400 hover:text-white transition">GitHub: @MZMurphy</a>
         <span class="text-slate-700">|</span>
         <a href="https://linkedin.com/in/mariesha-zara-murphy" class="text-blue-400 hover:text-white transition">LinkedIn: /in/mariesha-zara-murphy</a>
       </div>
@@ -309,7 +309,7 @@
               <h4 class="text-white font-bold">Network Development Engineer Intern</h4>
               <p class="font-mono text-[10px] text-blue-400 uppercase">Amazon Web Services (AWS) // 2025</p>
               <p class="text-slate-500 text-sm mt-2 leading-relaxed">
-                  Automated production network management via IaC. Edge Network Cloud team focus.
+                  Automated production network provisioning and management via IaC. Edge Network Cloud team focus.
               </p>
           </div>
 
@@ -318,7 +318,7 @@
               <h4 class="text-white font-bold">Secure Software Developer Intern</h4>
               <p class="font-mono text-[10px] text-slate-400 uppercase">HMG Civil Service // 2024 - 2025</p>
               <p class="text-slate-500 text-sm mt-2 leading-relaxed">
-                  POSIX-compliant C/C++ utilities. High-security virtualized environments.
+                  Developed POSIX-compliant C/C++ developer utilities for Linux and Unix based Hypervisor systems
               </p>
           </div>
       </div>
@@ -328,22 +328,22 @@
       <h2 class="font-mono text-xs font-bold text-slate-500 mb-12 uppercase tracking-[0.3em]">Attended_Events</h2>
       <div class="border-l border-white/10 ml-2">
           <div class="mb-10 pl-8 relative">
+              <div class="absolute w-2 h-2 bg-purple-500 -left-[5px] top-1"></div>
+              <h4 class="text-white font-bold">AWS // SRE Events</h4>
+              <p class="font-mono text-[10px] text-purple-400 uppercase">Incoming // 2026</p>
+          </div>
+
+          <div class="mb-10 pl-8 relative">
               <div class="absolute w-2 h-2 bg-blue-500 -left-[5px] top-1"></div>
               <h4 class="text-white font-bold">HackEurope Stockholm</h4>
-              <p class="font-mono text-[10px] text-blue-400 uppercase">Hackathon // 2025</p>
+              <p class="font-mono text-[10px] text-blue-400 uppercase">Hackathon // 2026</p>
               <p class="text-slate-500 text-sm mt-2 leading-relaxed">Built Cloud-Comfort.</p>
           </div>
 
           <div class="mb-10 pl-8 relative">
-              <div class="absolute w-2 h-2 bg-purple-500 -left-[5px] top-1"></div>
+              <div class="absolute w-2 h-2 bg-slate-500 -left-[5px] top-1"></div>
               <h4 class="text-white font-bold">HackTheBox Events</h4>
-              <p class="font-mono text-[10px] text-purple-400 uppercase">CTF // Ongoing</p>
-          </div>
-
-          <div class="mb-10 pl-8 relative">
-              <div class="absolute w-2 h-2 bg-slate-700 -left-[5px] top-1"></div>
-              <h4 class="text-slate-500 font-bold">AWS // SRE Events</h4>
-              <p class="font-mono text-[10px] text-slate-600 uppercase">Incoming // 2026</p>
+              <p class="font-mono text-[10px] text-slate-400 uppercase">CTF // Ongoing</p>
           </div>
       </div>
     </section>
