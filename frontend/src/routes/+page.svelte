@@ -221,7 +221,7 @@
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">DeepDig Debugger</h3>
           <p class="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">
-            Low-level Linux binary debugger. Pure C core for kernel interfacing via ptrace API with DWARF symbol parsing.
+            Linux command-line debugger with runtime data structure visualisation. Full DWARF parsing, HUD navigation, and register inspection. Kernel interfacing via ptrace API. Pure C metal layer with C++ overtop.
           </p>
           <div class="flex flex-wrap gap-2 mt-auto">
             <span class="font-mono text-[10px] bg-slate-900 border px-2 py-1 tag-cpp">C++20</span>
@@ -243,7 +243,7 @@
            <img src="/videos/cloud-comfort.png" alt="Cloud-Comfort screenshot" class="w-full h-full object-cover object-top" />
         </div>
         <div class="p-6 flex flex-col flex-grow">
-          <h3 class="text-lg font-bold text-white mb-2">Cloud-Comfort</h3>
+          <h3 class="text-lg font-bold text-white mb-2">CloudComfort Agentic Infrastructure</h3>
           <p class="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">
             Agentic AI environment for cloud infrastructure. Parses Terraform into animated React Flow diagrams. Built on AWS internship knowledge to keep diagrams intuitive and production-accurate. Overhauled frontend with file sidebar, resource count bar, and minimap for large topologies.
           </p>
@@ -274,7 +274,7 @@
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">Portfolio Website</h3>
           <p class="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">
-            This site. SvelteKit frontend deployed to AWS via a Python CDK stack — S3 origin behind a CloudFront distribution with HTTPS enforced and cache invalidation on deploy. Full infrastructure-as-code from scratch.
+            This site. Svelte frontend deployed via Python CDK stack. Full infrastructure-as-code from scratch.
           </p>
           <div class="flex flex-wrap gap-2 mt-auto">
              <span class="font-mono text-[10px] bg-slate-900 border px-2 py-1 tag-svelte">SvelteKit</span>
@@ -321,7 +321,7 @@
            <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: MEMORY_LEAK.WEBM ]</span>
         </div>
         <div class="p-6 flex flex-col flex-grow">
-          <h3 class="text-lg font-bold text-white mb-2">HeapHeaver</h3>
+          <h3 class="text-lg font-bold text-white mb-2">HeapHeaver Memory Analysis</h3>
           <p class="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">
              Valgrind-inspired memory leak detection engine. Supports flow control and verbose debugging for C binaries.
           </p>
