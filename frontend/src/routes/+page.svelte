@@ -80,7 +80,7 @@
 </script>
 
 <svelte:head>
-  <title>Mariesha Zara Murphy | Quant Platform Engineer</title>
+  <title>Mariesha Zara Murphy | HPC Platform Engineer</title>
 </svelte:head>
 
 {#if showCVModal}
@@ -164,11 +164,11 @@
       </h1>
       
       <p class="font-mono text-purple-400 text-lg mb-6">
-        Quant Platform Engineer // Systems & Networks
+        HPC Platform Engineer // Systems & Networks
       </p>
-      
+
       <p class="text-xl text-slate-400 mb-8 max-w-lg leading-relaxed">
-        Incoming <span class="text-blue-400 font-medium">Quant Platform Engineer</span> bridging the gap between hardware/kernel operations and hyperscale cloud architectures.
+        <span class="text-blue-400 font-medium">HPC Platform Engineer</span> bridging the gap between hardware/kernel operations and hyperscale cloud architectures.
       </p>
       
       <div class="flex flex-wrap gap-4">
@@ -366,8 +366,11 @@
       <div class="border-l border-white/10 ml-2">
           <div class="mb-10 pl-8 relative">
               <div class="absolute w-2 h-2 bg-purple-500 -left-[5px] top-1"></div>
-              <h4 class="text-white font-bold">Incoming Quant Platform Engineer</h4>
-              <p class="font-mono text-[10px] text-purple-400 uppercase">Confidential Firm // 2026</p>
+              <h4 class="text-white font-bold">HPC Platform Engineer</h4>
+              <p class="font-mono text-[10px] text-purple-400 uppercase">Qube Research & Technologies // 2026</p>
+              <p class="text-slate-500 text-sm mt-2 leading-relaxed">
+                  Quantitative Technology Analyst. HPC pipelines and platforms as a member of the Cloud Team.
+              </p>
           </div>
 
           <div class="mb-10 pl-8 relative">
