@@ -240,7 +240,9 @@
         </div>
         <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-           <img src="/videos/cloud-comfort.png" alt="Cloud-Comfort screenshot" class="w-full h-full object-cover object-top" />
+           <video autoplay loop muted playsinline class="w-full h-full object-cover object-top">
+             <source src="/videos/cloud-comfort.mp4" type="video/mp4" />
+           </video>
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">CloudComfort Agentic Infrastructure</h3>
