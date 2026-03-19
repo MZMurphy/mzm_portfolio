@@ -81,6 +81,16 @@
 
 <svelte:head>
   <title>Mariesha Zara Murphy | HPC Platform Engineer</title>
+  <meta name="description" content="HPC Platform Engineer bridging hardware/kernel operations and hyperscale cloud architectures." />
+  <meta property="og:title" content="Mariesha Zara Murphy | HPC Platform Engineer" />
+  <meta property="og:description" content="HPC Platform Engineer bridging hardware/kernel operations and hyperscale cloud architectures." />
+  <meta property="og:url" content="https://zaranara.uk" />
+  <meta property="og:image" content="https://zaranara.uk/og-image.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mariesha Zara Murphy | HPC Platform Engineer" />
+  <meta name="twitter:description" content="HPC Platform Engineer bridging hardware/kernel operations and hyperscale cloud architectures." />
+  <meta name="twitter:image" content="https://zaranara.uk/og-image.png" />
 </svelte:head>
 
 {#if showCVModal}
