@@ -308,7 +308,7 @@
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">AWS Edge Automation</h3>
           <p class="text-sm text-slate-400 mb-6 leading-relaxed flex-grow">
-            Security-as-Code stack for global SD-WAN. Automated production infrastructure using TypeScript constructs.
+            Automated production SD-WAN infrastructure using IaC.
           </p>
           <div class="flex flex-wrap gap-2 mt-auto">
              <span class="font-mono text-[10px] bg-slate-900 border px-2 py-1 tag-python">Python</span>
