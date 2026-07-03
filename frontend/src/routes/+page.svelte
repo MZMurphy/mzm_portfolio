@@ -224,9 +224,7 @@
         </div>
         <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-          <video autoplay loop muted playsinline class="w-full h-full object-cover">
-            <source src="/videos/deepdig_demo.webm" type="video/webm" />
-          </video>
+          <img src="/videos/deepdig_demo.gif" alt="DeepDig debugger interface" class="w-full h-full object-cover" />
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">DeepDig Debugger</h3>
@@ -381,7 +379,7 @@
               <h4 class="text-white font-bold">HPC Platform Engineer</h4>
               <p class="font-mono text-[10px] text-purple-400 uppercase">Qube Research & Technologies // 2026</p>
               <p class="text-slate-500 text-sm mt-2 leading-relaxed">
-                  Quantitative Technology Analyst. HPC pipelines and platforms as a member of the Cloud Team.
+                  Quantitative Technology Analyst. HPC pipelines and platforms.
               </p>
           </div>
 
