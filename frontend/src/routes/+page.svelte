@@ -326,9 +326,9 @@
             <span class="font-mono text-[10px] text-slate-400">./mem/check</span>
             <span class="font-mono text-[10px] px-2 py-0.5 rounded badge-purple">opensource</span>
         </div>
-        <div class="h-48 bg-black border-b border-white/5 flex items-center justify-center overflow-hidden relative">
+        <div class="h-48 bg-black border-b border-white/5 overflow-hidden relative">
            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 pointer-events-none"></div>
-           <span class="font-mono text-slate-700 text-[10px] text-center px-4 relative z-0">[ VIDEO: MEMORY_LEAK.WEBM ]</span>
+           <img src="/videos/heapheaver_demo.gif" alt="HeapHeaver memory analysis" class="w-full h-full object-cover object-bottom" />
         </div>
         <div class="p-6 flex flex-col flex-grow">
           <h3 class="text-lg font-bold text-white mb-2">HeapHeaver Memory Analysis</h3>
